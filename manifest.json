@@ -1,0 +1,9 @@
+{
+	"name": "DLCT",
+	"description": "Download Medavis CT images of JSPH",
+	"version": "0.1.0",
+	"permissions": ["activeTab", "downloads", "storage", "http://192.168.231.2/*", "http://heruji.me/*"],
+	"browser_action": {"default_popup": "popup.html", "default_icon": "icon.png"},
+	"background": {"scripts": ["background.js"], "persistent": false},
+	"manifest_version": 2
+}
